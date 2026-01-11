@@ -25,4 +25,4 @@ jobs:
           --exclude='.git' \
           --no-times \
           -e "ssh -i ~/.ssh/deploy_key.pem -o StrictHostKeyChecking=no" \
-          ./ ubuntu@YOUR_EC2_PUBLIC_IP:/var/www/html-site/
+          ./ ubuntu@98.81.58.190:/var/www/html-site/
